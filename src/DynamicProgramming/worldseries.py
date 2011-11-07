@@ -38,5 +38,5 @@ def worldseries(a, b, p, q):
     return ret
 
 print table
-print worldseries(3, 3, .5, .5)
+print worldseries(6, 6, .3, .7)
 print table
