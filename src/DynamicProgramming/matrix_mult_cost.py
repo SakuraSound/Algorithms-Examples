@@ -44,8 +44,9 @@ def matrix_mult_cost(mat):
         table[mat] = (min_cost, min_chains, min_dims)
         return table[mat]
 
-#matrices = (1, 2, 3, 4, 5, 6)
-matrices = (1, 2, 3)
+matrices = (1, 2, 3, 4, 5, 6)
+#matrices = (1, 2, 3)
 print matrices
 print matrix_mult_cost(matrices)
 print table
+print len(table.items())
