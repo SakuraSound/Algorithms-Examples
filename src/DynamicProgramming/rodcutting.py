@@ -1,6 +1,7 @@
 '''
 Created on Oct 8, 2011
 
+HANABI and SAKURASOUND are code names for Joir-dan Gumbs
 @author: Hanabi
 '''
 

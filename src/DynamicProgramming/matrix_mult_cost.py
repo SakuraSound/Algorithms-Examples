@@ -1,7 +1,7 @@
 '''
 Created on Nov 8, 2011
 Code for calculating the minimum cost and the chain for matrix multiplication
-
+HANABI and SAKURASOUND are code names for Joir-dan Gumbs
 @author: Hanabi
 '''
 

@@ -1,3 +1,9 @@
+/*
+ * Written by Joir-dan Gumbs
+ * HANABI and SAKURASOUND are code names for Joir-dan Gumbs
+ * 2011
+ */
+
 import static java.lang.System.out;
 
 import java.util.Arrays;
@@ -38,14 +44,12 @@ public class LongCommon {
             for(int i = 0; i < m;i++){
                 out.printf("%s ", x.charAt(i));
                 out.println(Arrays.toString(b[i]));    
-            }
-            
+            } 
             out.printf("  %s\n", Arrays.toString(y.toCharArray()));
             for(int i = 0; i < m;i++){
                 out.printf("%s ", x.charAt(i));
                 out.println(Arrays.toString(c[i]));    
-            }
-            
+            }  
         }
         
         
