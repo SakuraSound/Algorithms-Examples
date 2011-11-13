@@ -5,7 +5,7 @@ Code to stack a set of boxes
 HANABI and SAKURASOUND are code names for Joir-dan Gumbs
 @author: Hanabi
 
-Performs in O(n^2)
+Performs in O(n^2) ignoring complexity to get all information presented in one algorithm.
 '''
 import itertools
 # -- FOR BOXES DIMENSIONS
@@ -58,7 +58,7 @@ def box_stacking(permboxes):
                 if max_i[HEIGHT] > max_height + permboxes[i][HEIGHT]:
                     b_top_w = max_i[BOX_TUPLE][TOP_BOX][W] #Width of the Top box in this chain
                     b_top_l = max_i[BOX_TUPLE][TOP_BOX][L] #Length of the Top box in this chain
-                    if b_top_w >= permboxes[i][R_BOX][W] and b_top_l >= permboxes[i][R_BOX][L]:
+                    if b_top_w > permboxes[i][R_BOX][W] and b_top_l > permboxes[i][R_BOX][L]:
                         max_height = max_i[HEIGHT] + permboxes[i][HEIGHT]
                         chain = [box for box in max_i[BOX_TUPLE]] + [permboxes[i]]
                         max_boxes = tuple([x for x in chain])
